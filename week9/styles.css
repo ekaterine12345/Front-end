@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    /* display: grid; */
+    /* align-content: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.about{
+    width: 80%;
+    height: 600px;
+    border: 1px solid black;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-self: flex-end;
+    align-items: center;
+    /* align-items: stretch; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-wrap: wrap; */
+     /* flex-flow: row wrap;  flex drevtion  + flex wrap */
+}
+section > article{
+    width: 25%;
+    height: 200px;
+    background-color: gray;
+    border: 1px solid red;
+    box-shadow: 3px 3px 3px 3px gainsboro;
+    justify-content: flex-end;
+    
+    /* display: inline; */
+
+}
+section > article:nth-child(2)
+{
+    order: -1;
+    align-self: flex-end;
+    align-content:flex-end;
+}

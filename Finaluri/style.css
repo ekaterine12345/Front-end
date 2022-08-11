@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.days{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-height: 5em;
+    margin-top: 3em;
+}
+.day{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100%;
+    border-radius: 0.6em;
+    padding: 2em;
+    margin-top: 2em;
+    margin-left: 5em;
+    background: linear-gradient(rgb(100, 210, 150), rgb(9, 167, 88), rgb(2, 99, 52) );
+    color: bisque;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+
+}
+.dayp{
+    margin-top: 2em;
+    margin-left: 1.3em;
+    color:rgb(30, 30, 100);
+    letter-spacing: 0.1em;
+    font-weight: bold;
+}
+
+.daybutton{
+    background-color: rgb(108, 108, 209);
+    border-color: rgb(112, 224, 224);
+    align-self:flex-start;
+    padding: 0.2em;
+    margin-top: 1em;
+    margin-left: 1em;
+    font-style: italic;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.card_img{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 18px;
+    background-size: cover;
+    border-radius: 12px 12px 0 0;
+}
+
+.card{
+    background-color: rgb(136, 230, 159);
+    max-width: 500px;
+    height: auto;
+    margin: 16px;
+    padding: 4px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(6, 138, 138, 0.4);
+}
+
+
+.card article h1{
+    color: rgb(95, 3, 3);
+    display: flex;
+    align-self: center;
+}
+.card article p{
+    padding: 6px;
+    color: rgb(87, 2, 2);
+    font-family:'Times New Roman', Times, serif;
+}
+.card article .mooviebutton{
+    background-color: rgb(4, 4, 75);
+    color: rgb(197, 187, 187);
+    padding: 12px 15px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0 0 8px 8px;
+    position: relative;
+}
+.card:hover{
+   
+    background: rgba(19, 218, 29, 0.7);
+    color: rgb(71, 24, 24);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.5s ease-in;
+}
+.card:hover .timebutton:hover{
+    color: blanchedalmond;
+    background-color: rgb(33, 2, 61);
+}
+
+.your_day article{
+    color: rgb(95, 27, 114);
+    letter-spacing: 0.19em;
+    background-color: aqua;
+    margin-left: 5em;
+    margin-right: 20em;
+    margin-top: 5em;
+    font-size: 2em;
+    padding: 1em;
+    border: 5px dotted rgb(161, 4, 161);
+    min-width: 10em;
+}
+
+
+.button-container
+{
+    display: flex;
+    align-self: center;
+}
+
+.card article .timebutton{
+    background-color: rgb(4, 4, 75);
+    color: rgb(197, 187, 187);
+    padding: 12px 15px;
+    width: 80%;
+    display: block;
+    text-align: center;
+    align-self: center;
+    border-radius: 0.3em;
+    position: relative;
+    margin: 0.5em;
+}
+
+
+.card:hover .timebutton:hover{
+    color: blanchedalmond;
+    background-color: rgb(33, 2, 61);
+    transform: scale(1.2);
+}
+
+main{
+    background-color: rgba(137, 93, 194, 0.2);
+}

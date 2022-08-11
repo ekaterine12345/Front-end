@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+label{
+    display: block;
+    margin-top: 1.5em;
+}
+
+input{
+    border: solid 0.1em grey;
+   
+}
+
+input[type="text"], input[type="email"]{
+width: 25em;
+height: 2.5em;
+border-radius: 0.1em;
+}
+
+input[type="date"]
+{
+    width: 14em;
+    height: 1.5em;;
+}
+
+p[class="asterisk"]{
+color: red;
+display: inline;
+}
+
+.checkbox > label{
+    display: inline;
+    margin-top: 0.5em;
+}
+
+.radio > label{
+    display: inline;
+    margin-top: 0.5em;
+}
+
+textarea{
+    border: 0.1em solid gray;
+    border-radius: 0.1em;
+}
+
+
+.checkbox, .radio{
+    margin-top: 1.5em;
+    margin-bottom: 0.1em;
+}
+
+form{
+    padding-left: 38%;
+}
+
+input[type="submit"]
+{
+    width: 5em;
+    height: 2em;
+    border-radius: 0.3em;
+    border: 1px solid rgb(128, 128, 128);
+    margin-bottom: 5em;
+    margin-top: 1.5em;
+}

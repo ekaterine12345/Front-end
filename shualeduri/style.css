@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+   float: left;
+}
+
+.left{
+display: inline;
+position: fixed;
+background-color: beige;
+}
+
+img{
+display: block;
+height: 700px;
+width: 500px;
+}
+
+p{
+    margin-bottom: 1em;
+}
+u{
+    display: block;
+    color: gray;
+    
+}
+hr{
+    margin-bottom: 30px;
+    margin-top: 3px;
+}
+u:last-of-type{
+    margin-top: 10px;
+}
+.right{
+    margin-left: 650px;
+}
+p{
+    color: gray;
+    margin-top: 2px;
+}

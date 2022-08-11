@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#news{
+
+    width: 500px;
+    height: auto;
+    background-color: green;
+    border: 10px solid darkgoldenrod;
+}
+.about{
+    /* width: 30px; */
+    height: 300px;
+    background-color: blueviolet;
+}
+section {
+    width: 500px;
+    height: 50px;
+    background-color: rgb(226, 43, 119);
+}
+
+/* #news h2{
+    color: brown;
+    background-color: blanchedalmond;
+} */
+
+#news > h2:first-child{
+    color: rgb(56, 83, 71);
+}
+
+/* #news + h2{
+    color: rgb(42, 120, 165);
+    background-color: rgb(255, 205, 247);
+} */
+
+#news ~ h2{
+    color: violet;
+}
+
+h2:hover {
+    background-color: yellowgreen;
+    font-size: 25px;
+}
+
+#news p:nth-child(2n+1) {
+color: brown;
+background-color: blue;
+}
+
+p.after::after{
+
+    content: "HEllo";
+}
+
+p.before::before{
+    content: "hiii";
+}
+
+a[href="#"]
+{
+    color: crimson;
+    font-size: 35px;
+}

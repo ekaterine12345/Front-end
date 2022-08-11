@@ -1,0 +1,78 @@
+section{
+    width: 300px;
+    height: 150px;
+    background: linear-gradient(to left top, red, blue, rgba(255,155,32,0.3));
+}
+div{
+    width: 100px;
+    height: 100px;
+    color: red;
+    background-color: rgba(12,32,12,0.5);
+    font-size: 25px;
+    /* opacity: 0.2; */
+    border: 1px solid green;
+    text-shadow: 5px 2px 2px red;
+    box-shadow: 0px 0px 10px blue;
+    margin: 10px;
+    transform: translate(50px, 100px);
+    /* transform: scale(1.1) skew(20deg, 12deg); */
+    transition: width 1.5s, higth 5s;
+}
+article{
+    width: 300px;
+    height: 150px;
+    color: red;
+    background: radial-gradient(green, blue , black);
+   
+}
+
+div:hover {
+background-color: violet;
+/* transform: rotate(315deg); */
+width: 300px;
+height: 400px;;
+}
+
+.container{
+    width: 100px;
+    height: 100px;
+    display: block;
+    animation-name: anim1;
+    animation-duration: 3s;
+    background-color: aqua;
+    animation-iteration-count: 2;
+}
+
+@keyframes anim1 {
+/* from {
+    background-color: red;
+}
+
+to{
+    background-color: greenyellow;
+} */
+
+0%{
+    background-color: red;
+}
+
+15%{
+    background-color: green;
+    width: 200px;
+    height: 150px;
+    opacity: 0.5;
+}
+30%{
+background-color: aquamarine;
+}
+70%{
+    opacity: 0.5;
+
+}
+100%{
+    width: 100px;
+    height: 50px;
+    background-color: blueviolet;
+}
+
+}

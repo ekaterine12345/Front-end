@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finaluri</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<main>
+
+
+
+<p class="dayp"> Please Choose the Day of the Week</p>    
+<section class="days">
+
+
+<article class="day">
+    
+<p class="day-text"> Monday</p>    
+<button class="daybutton" type="button" onclick="dayOfWeekSchedule('monday')">Choose</button>
+</article>
+
+<article class="day">
+
+    <p class="day-text"> Tuesday</p>
+    <button class="daybutton" type="button" onclick="dayOfWeekSchedule('tuesday')">Choose</button>   
+</article>
+
+<article class="day">
+
+    <p class="day-text">  Wednesday</p>   
+    <button class="daybutton" type="button" onclick="dayOfWeekSchedule('wednesday')">Choose</button>  
+</article>
+
+<article class="day">
+
+    <p class="day-text"> Thursday</p>    
+    <button class="daybutton" type="button" onclick="dayOfWeekSchedule('thursday')">Choose</button> 
+</article>
+
+
+<article class="day">
+
+    <p class="day-text"> Friday</p>    
+    <button class="daybutton" type="button" onclick="dayOfWeekSchedule('friday')">Choose</button> 
+</article>
+
+<article class="day">
+
+    <p class="day-text"> Saturday</p>    
+    <button class="daybutton" type="button" onclick="dayOfWeekSchedule('saturday')">Choose</button> 
+</article>
+
+<article class="day">
+
+    <p class="day-text"> Sunday</p>    
+    <button class="daybutton" type="button" onclick="dayOfWeekSchedule('sunday')">Choose</button> 
+</article>
+
+</section>
+
+<section class="your_day">
+<article>
+
+<h2 id="your_day_h2"> Monday </h2>
+
+</article>
+
+</section>
+
+
+<section class="moovies" id="container">
+
+    <section class="card">
+
+        <!-- <div class="card_img img1"></div> -->
+        <img id="img1" class="card_img img1" src="https://tkt-static.lemon.do/img/5161dbdb-0050-48f4-b7f2-4c21c8a7ba36.jpeg" alt="photo"> 
+
+
+        <article id="art_1">
+        
+        <h1 id="title_1"> ურჩხული და ლამაზმანი</h1>
+        
+        <p>Available Times:</p>
+
+        <p id="availabe_times_range_1"> 10 - 20</p>
+        
+        <!-- <button class="mooviebutton" type="button" onclick="alert('hi')">Select this time</button>  -->
+        
+        <article id="bc_1" class="button-container">
+
+        <button class="timebutton n1" id="c1n1" type="button" onclick="buyTicket(this.id)"> 10-12 </button>
+        <button class="timebutton n1" id="c1n2" type="button" onclick="buyTicket(this.id)"> 12-14 </button>
+        <button class="timebutton n1" id="c1n3" type="button" onclick="buyTicket(this.id)"> 14-16 </button>
+        <button class="timebutton n1" id="c1n4" type="button" onclick="buyTicket(this.id)"> 16-18 </button>
+        <button class="timebutton n1" id="c1n5" type="button" onclick="buyTicket(this.id)"> 18-20 </button>
+
+        </article>
+
+        </article>
+        
+         </section>   
+        
+         <section class="card">
+
+            <!-- <div class="card_img img1"></div> -->
+            <img id="img2" class="card_img" src="https://tkt-static.lemon.do/img/0f40afe7-396d-4158-8526-0b56b0c6b255.jpeg" alt="photo"> 
+    
+    
+            <article id ="art_2">
+            
+            <h1 id="title_2"> მერე რა რომ, სველია სველი იასამანი </h1>
+            
+            <p>Available Times: </p>
+           
+            <p id="availabe_times_range_2"> 10 - 20 </p>
+            
+            <!-- <button class="mooviebutton" type="button" onclick="alert('hi')">Choose</button>  -->
+            
+
+            <article id="bc_2" class="button-container">
+
+                <button class="timebutton n2" id="c2n1" type="button" onclick="buyTicket(this.id)"> 10-12 </button>
+                <button class="timebutton n2" id="c2n2" type="button" onclick="buyTicket(this.id)"> 12-14 </button>
+                <button class="timebutton n2" id="c2n3" type="button" onclick="buyTicket(this.id)"> 14-16 </button>
+                <button class="timebutton n2" id="c2n4" type="button" onclick="buyTicket(this.id)"> 16-18 </button>
+                <button class="timebutton n2" id="c2n5" type="button" onclick="buyTicket(this.id)"> 18-20 </button>
+            </article>
+
+
+            </article>
+            
+           
+             </section>   
+        
+      
+             <section class="card">
+
+                <!-- <div class="card_img img1"></div> -->
+                <img id="img3" class="card_img" src="https://tkt-static.lemon.do/img/68eaefd8-2a61-48bc-a0ce-7261aab14bc8.jpeg" alt="photo"> 
+        
+        
+                <article id="art_3">
+                
+                <h1 id="title_3"> შეყრა</h1>
+                
+                <p>Available Times:</p>
+        
+                <p id="availabe_times_range_3"> 10 - 20 </p>
+                
+                <!-- <button class="mooviebutton" type="button" onclick="alert('hi')">Choose</button>  -->
+                
+
+                <article id="bc_3" class="button-container">
+
+                    <button class="timebutton" id="c3n1" type="button" onclick="buyTicket(this.id)"> 10-12 </button>
+                    <button class="timebutton" id="c3n2" type="button" onclick="buyTicket(this.id)"> 12-14 </button>
+                    <button class="timebutton" id="c3n3" type="button" onclick="buyTicket(this.id)"> 14-16 </button>
+                    <button class="timebutton" id="c3n4" type="button" onclick="buyTicket(this.id)"> 16-18 </button>
+                    <button class="timebutton" id="c3n5" type="button" onclick="buyTicket(this.id)"> 18-20 </button>
+                </article>
+
+                </article>
+                
+                 </section>   
+
+</section>
+
+</main>  
+
+
+<script src="./app.js"></script> 
+</body>
+</html>

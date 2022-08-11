@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Register</title>
+</head>
+<body>
+   
+    <form name="login" action="index.php" method="get" target="self">  
+
+        
+        <div>
+        <label for="company_name"> Name / Company name <p class="asterisk">*</p> </label>
+       
+        <input type="text" name="company_name" value="">
+        </div>
+
+
+       
+        <div>
+        <label for="email"> Email <p class="asterisk">*</p> </label>
+        <input type="email" name="email" value="">
+        </div>
+
+
+        
+        <div>
+        <label for="date"> Ad Start Date <p class="asterisk">*</p></label>
+        <input type="date" name="date" value="" >
+        </div>
+        
+
+        <div>
+        <label for=""> Ad End Date <p class="asterisk">*</p></label>
+        <input type="date" name="date" value="" >
+        </div>
+
+
+        
+        <div class="radio">
+            <p> Advertising Size (pixels) </p>
+           
+            <input type="radio" id="option1" name="pixels" value="Option1" >
+            <label for="option1"> Option1</label>
+            
+            <br>
+            <input type="radio"  id="option2" name="pixels" value="Option2">
+            <label for="option2"> Option2</label>
+
+             <br>
+            <input type="radio" id="option3" name="pixels" value="Option3">
+            <label for="option3"> Option3</label>
+
+
+        </div>
+
+
+      
+        <div class="checkbox">
+            <p> Which sites would you like to advertise on? </p>
+
+            <input type="checkbox" id="opt1" name="sites" value="Opt1">
+            <label for="opt1"> Option1 </label>
+
+            <br>
+            <input type="checkbox" id="opt2" name="sites" value="Opt2">
+            <label for="opt2"> Option2 </label>
+
+            <br>
+            <input type="checkbox" id="opt3" name="sites" value="Opt3">
+            <label for="opt3"> Option3 </label>
+
+
+
+        </div>
+
+
+       
+        <div>
+        
+        <label for=""> Websites to be advertised <p class="asterisk">*</p></label>
+       
+        <input type="text" name="Websites" value="" >
+
+        </div>
+
+        
+        <div>
+        <label for="comments"> Comments </label>
+
+        <textarea name="comments" rows="10" cols="43"> 
+
+
+        </textarea>
+            
+        </div>
+
+        <input  type="submit" name="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
